@@ -23,7 +23,8 @@ dotenv.config({
 const server = http.createServer(app);
 const io = new SocketIOServer(server, {
     cors: {
-        origin: "http://localhost:5173",
+        // origin: "http://localhost:5173",
+        origin: process.env.FRONTEND_URL,
         methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"],
         credentials: true
     }
