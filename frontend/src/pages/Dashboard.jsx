@@ -8,7 +8,7 @@ import io from 'socket.io-client';
 import { useNavigate } from 'react-router-dom';
 
 const token = localStorage.getItem('token');
-const socket = io('http://localhost:8000', {
+const socket = io(process.env.VITE_API_BASE_URL, {
   withCredentials: true,
   auth: { token },
 });
