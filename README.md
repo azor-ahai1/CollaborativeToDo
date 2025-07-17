@@ -8,6 +8,12 @@ A real-time collaborative Kanban board for task management. Users can create, ed
 - **Backend:** Node.js, Express, Socket.IO, MongoDB (Mongoose)
 - **Authentication:** JWT (JSON Web Tokens)
 
+## Related Links:
+- GitHub Repository : https://github.com/azor-ahai1/CollaborativeToDo
+- Live Demo : https://collaborativetodo.onrender.com 
+- Demo Video : https://drive.google.com/file/d/1P4NkHd7SilYuv7R1o3Qa6HiOhxN0C2va
+- Logic Explanation : https://github.com/azor-ahai1/CollaborativeToDo/blob/main/Logic_Document.md
+
 ## Setup & Installation
 
 ### Prerequisites
